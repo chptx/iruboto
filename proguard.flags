@@ -1,0 +1,9 @@
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+
+-keep public class org.ruboto.run {
+	*;
+}
